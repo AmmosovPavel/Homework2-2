@@ -1,11 +1,11 @@
 public class Army {
     public static void main(String[] args) {
-        int x = 1000;
-        int y = 1500;
+        final int lannisterArmy = 1000;
+        final int sarumanOrks = 1500;
+        int totalArmy = lannisterArmy + sarumanOrks;
+        System.out.println("У Ланнисторов в войске " + lannisterArmy + " пехотинцев");
 
-        int z = x + y;
-        System.out.println("У Ланнисторов в войске " + x + " пехотинцев");
-        System.out.println("У Сарумана в войске " + y + " орков");
-        System.out.println("Общая численность армии составляет " + z + " тел");
+        System.out.println("У Сарумана в войске " + sarumanOrks + " орков");
+        System.out.println("Общая численность армии составляет " + totalArmy + " тел");
     }
 }
